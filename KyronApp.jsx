@@ -1,3 +1,6 @@
+function App() {
+  return (
+    <>
 import { useState, useEffect, useRef } from "react";
 
 /* ─────────────────────────────────────────
@@ -1197,3 +1200,5 @@ export default function KyronApp() {
     </>
   );
 }
+
+export default App;
