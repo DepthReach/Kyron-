@@ -1,10 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './KyronApp';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import KyronApp from "./KyronApp";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
-    <App />
+    <KyronApp />
   </React.StrictMode>
 );
